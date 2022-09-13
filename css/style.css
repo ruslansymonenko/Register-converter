@@ -1,0 +1,162 @@
+body {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #FFD596;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+    width: 80%;
+}
+
+/*--------------------------Header*/
+
+.app_header {
+    height: 140px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    background-color: #FFF1D4;
+}
+
+.main_header {
+    font-size: 40px;
+    font-weight: 600;
+    color: #CC800E;
+}
+
+/*---------------------------Main*/
+
+.app_main {
+    height: 404px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_field {
+    height: 280px;
+    width: 46%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.btn {
+    height: 40px;
+    width: 90px;
+    margin: 3px;
+    color: #CC800E;
+    font-weight: 600;
+    background-color: #FFF1D4;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover {
+    transition: 0.5s;
+    background-color: #FEFEFE;
+}
+.btn:active {
+    transform: scale(0.94);
+}
+
+.btn_on {
+    background-color: #FEFEFE;
+    box-shadow: 1px 1px 1px rgba(173, 173, 173, 0.668);
+}
+
+.text_input {
+    height: 180px;
+    width: 90%;
+    margin-bottom: 5px;
+    background-color: #FEFEFE;
+    border: 10px solid #FFF1D4;
+    font-size: 20px;
+    padding: 3px;
+    color: #2f3640;
+}
+.text_input:focus {
+    outline: none;
+}
+
+.convert_btn {
+    height: 40px;
+    width: 90px;
+    color: #2f3640;
+    background-color: #FFBC57;
+}
+
+.output_field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 280px;
+    width: 46%;
+    margin-left: 10px;
+    background-color: #FEFEFE;
+    border: 20px solid #FFF1D4;
+    border-radius: 7px;
+}
+
+.ouput_text_field {
+    width: 90%;
+    height: 100%;
+}
+
+.output_text {
+    min-width: 90%;
+    height: 180px;
+    margin-top: 30px;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #2f3640;
+    text-align: left;
+}
+.copy_btn {
+    background-color: #FEDD9E;
+    width: 50%;
+    height: 30px;
+    border: none;
+    margin: 20px 0px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #2f3640;
+}
+
+
+/*--------------------------Footer*/
+
+.app_footer {
+    height: 140px;
+    width: 100%;
+
+    position: relative;
+}
+
+.app_logo {
+    position: absolute;
+    right: 50px;
+}
